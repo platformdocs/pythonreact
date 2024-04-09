@@ -1,0 +1,101 @@
+/* src\assets\css\index.css */
+/*清浮动*/
+.clearfix {
+    display: block;
+  }
+  .clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+  .G-col-error {
+    color: #f81d22;
+  }
+  .G-col-succ {
+    color: #0b8235;
+  }
+  
+  /* Login页 */
+  /* body {
+    justify-content: center;
+    align-items: flex-start;
+  } */
+  
+  .p-login {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: #7adbcb;
+  }
+  .p-login .logo {
+    display: block;
+    height: 6em;
+    margin: 150px auto 20px;
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+  .p-login .ipt-con {
+    margin: 0px auto 20px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  /* Home页 */
+  .p-home {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#f48c8d, #f4c58d);
+  }
+  .p-home h1 {
+    margin-top: 50px;
+    text-align: center;
+    color: #fff;
+  }
+  .p-home .ipt-con {
+    margin: 20px auto 0;
+    text-align: center;
+  }
+  
+  /* 公共组件Header */
+  .m-header {
+    padding-left: 10px;
+    text-align: left;
+    height: 40px;
+    line-height: 40px;
+    font-size: 30px;
+    color: #fff;
+    background-color: #409eff;
+    display: flex;
+  }
+  .m-header .logo {
+    display: inline;
+    height: 30px;
+    padding: 5px 5px;
+    margin: 0;
+  }
+  .m-header a {
+    line-height: 40px;
+    font-size: 26px;
+  }
+  

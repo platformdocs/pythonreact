@@ -1,0 +1,35 @@
+Arguments: 
+  /Users/admin/Documents/defy/nvm-0.39.1/versions/node/v16.13.1/bin/node/bin/node /Users/admin/.yarn/bin/yarn.js add redux-thunk
+
+PATH: 
+  /Users/admin/.yarn/bin:/Users/admin/.config/yarn/global/node_modules/.bin:/Users/admin/Documents/defy/nvm-0.39.1/versions/node/v16.13.1/bin/node/bin:/Users/admin/Downloads/flutter/bin:/Users/admin/.deno/bin:/usr/local/opt/php@7.1/bin:/Users/admin/.rvm/gems/ruby-2.4.1/bin:/Users/admin/.rvm/gems/ruby-2.4.1@global/bin:/Users/admin/.rvm/rubies/ruby-2.4.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/opt/X11/bin:/Library/Apple/usr/bin:/Applications/Wireshark.app/Contents/MacOS:/Users/admin/Downloads/flutter/bin:/Users/admin/miniconda3/bin:/Users/admin/miniconda3/condabin:/Users/admin/.yarn/bin:/Users/admin/.config/yarn/global/node_modules/.bin:/Users/admin/Documents/defy/nvm-0.39.1/versions/node/v16.13.1/bin/node/bin:/Users/admin/Downloads/flutter/bin:/Users/admin/.deno/bin:/usr/local/opt/php@7.1/bin:/Users/admin/.rvm/gems/ruby-2.4.1/bin:/Users/admin/.rvm/gems/ruby-2.4.1@global/bin:/Users/admin/.rvm/rubies/ruby-2.4.1/bin:/Users/admin/.cargo/bin:/Users/admin/.rvm/bin:/Users/admin/Documents/defy/tomcat-7.0.56/bin:/Users/admin/Documents/defy/driver:/Users/admin/Downloads/android-sdk-macosx/bin:/Users/admin/Downloads/android-sdk-macosx/tools:/Users/admin/Downloads/android-sdk-macosx/tools/bin:/Users/admin/Downloads/android-sdk-macosx/emulator:/Users/admin/Downloads/android-sdk-macosx/platform-tools:/Users/admin/Downloads/android-sdk-macosx/build-tools/30.0.0-preview:/usr/local/lib/node_modules/@vue/cli/bin:/Applications/Android Studio.app/Contents/gradle/gradle-6.9.1/bin:/Users/admin/.rvm/bin:/Users/admin/.rvm/bin:/Users/admin/Documents/defy/tomcat-7.0.56/bin:/Users/admin/Documents/defy/driver:/Users/admin/Downloads/android-sdk-macosx/bin:/Users/admin/Downloads/android-sdk-macosx/tools:/Users/admin/Downloads/android-sdk-macosx/tools/bin:/Users/admin/Downloads/android-sdk-macosx/emulator:/Users/admin/Downloads/android-sdk-macosx/platform-tools:/Users/admin/Downloads/android-sdk-macosx/build-tools/30.0.0-preview:/usr/local/lib/node_modules/@vue/cli/bin:/usr/local/go/bin:/Applications/Android Studio.app/Contents/gradle/gradle-6.9.1/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.19.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: certificate has expired
+      at TLSSocket.onConnectSecure (node:_tls_wrap:1659:34)
+      at TLSSocket.emit (node:events:517:28)
+      at TLSSocket._finishInit (node:_tls_wrap:1070:8)
+      at ssl.onhandshakedone (node:_tls_wrap:856:12)
+
+npm manifest: 
+  {
+    "dependencies": {
+      "react-redux": "^9.1.0",
+      "redux": "^5.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
